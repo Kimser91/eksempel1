@@ -89,3 +89,22 @@ function showHtml() {
         </div>
   `;
   }
+
+  function showJavaScript() {
+    blankAll();
+    document.getElementById.('cardJavaScript').innerHTML =/*html*/`
+      <div class="innerCard">
+         Det viktigste vi skal lære er programmeringsspråket JavaScript. 
+         Vi skal lære grunnleggende programmering
+         ved å manipulere HTML- og CSS-kode på en nettside ved hjelp av JavaScript.
+      <ul>
+        <li>Det finnes en W3Schools JavaScript Tutorial, 
+            men her anbefaler vi heller å følge kurset vårt på Moodle.
+        </li>
+        <li><a href="https://www.w3schools.com/jsref/default.asp" 
+               target="_new">W3Schools JavaScript Reference
+        </a></li>
+      </ul>
+</div>
+    `;
+  }
