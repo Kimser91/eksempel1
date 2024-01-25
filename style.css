@@ -23,23 +23,23 @@ body {
 }
 
 .green {
-
+background-color: green;
 }
 
 .yellow {
-
+background-color: red;
 }
 
 .red {
-
+background-color: red;
 }
 
 .blue {
-
+background-color: blue;
 }
 
 .dark {
-
+background-color: rgb(rgb(29, 24, 24), green, blue);
 }
 
 p {
