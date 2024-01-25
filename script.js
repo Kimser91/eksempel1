@@ -160,28 +160,28 @@ function showHtml() {
   }
 
   function selectBody1() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('body').innerHTML = /*html*/`
         <button onclick="selectBody4()">◀</button>
         <img src="img/body1.png" />
         <button onclick="selectBody2()">▶</button>
     `;
   }
   function selectBody2() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('body').innerHTML = /*html*/`
         <button onclick="selectBody1()">◀</button>
         <img src="img/body2.png" />
         <button onclick="selectBody3()">▶</button>
     `;
   }
   function selectBody3() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('body').innerHTML = /*html*/`
         <button onclick="selectBody2()">◀</button>
         <img src="img/body3.png" />
         <button onclick="selectBody4()">▶</button>
     `;
   }
   function selectBody4() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('body').innerHTML = /*html*/`
         <button onclick="selectBody3()">◀</button>
         <img src="img/body4.png" />
         <button onclick="selectBody1()">▶</button>
@@ -189,28 +189,28 @@ function showHtml() {
   }
 
   function selectLegs1() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('legs').innerHTML = /*html*/`
         <button onclick="selectLegs4()">◀</button>
         <img src="img/legs1.png" />
         <button onclick="selectLegs2()">▶</button>
     `;
   }
   function selectLegs2() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('legs').innerHTML = /*html*/`
         <button onclick="selectLegs1()">◀</button>
         <img src="img/legs2.png" />
         <button onclick="selectLegs3()">▶</button>
     `;
   }
   function selectLegs3() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('legs').innerHTML = /*html*/`
         <button onclick="selectLegs2()">◀</button>
         <img src="img/legs3.png" />
         <button onclick="selectLegs4()">▶</button>
     `;
   }
   function selectLegs4() {
-    document.getElementById('head').innerHTML = /*html*/`
+    document.getElementById('legs').innerHTML = /*html*/`
         <button onclick="selectLegs3()">◀</button>
         <img src="img/legs4.png" />
         <button onclick="selectLegs1()">▶</button>
