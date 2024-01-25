@@ -92,7 +92,7 @@ function showHtml() {
 
   function showJavaScript() {
     blankAll();
-    document.getElementById.('cardJavaScript').innerHTML =/*html*/`
+    document.getElementById('cardJavaScript').innerHTML = /*html*/`
       <div class="innerCard">
          Det viktigste vi skal lære er programmeringsspråket JavaScript. 
          Vi skal lære grunnleggende programmering
@@ -108,3 +108,15 @@ function showHtml() {
 </div>
     `;
   }
+
+  function
+  
+  
+  function blankAll() {
+    document.getElementById('').innerHTML='';
+    document.getElementById('').innerHTML='';
+    document.getElementById('').innerHTML='';
+    document.getElementById('').innerHTML='';
+    document.getElementById('').innerHTML='';
+  }
+
