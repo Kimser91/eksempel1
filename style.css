@@ -43,18 +43,18 @@ background-color: rgb(rgb(29, 24, 24), green, blue);
 }
 
 p {
-padding
+padding-left: 10px;
 }
 
 .horizontal {
-display: flex;
-flex-direction: row;
-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .vertical {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid {
